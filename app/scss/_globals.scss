@@ -36,6 +36,10 @@ body {
     &--bottom {
       top: 52%;
       left: 48%;
+      @media (max-width: 620px) {
+        top: 45%;
+        left: 35%;
+      }
     }
   }
 }
@@ -47,11 +51,17 @@ body {
   font-weight: $fw-bold;
   text-align: center;
   color: $veryDarkBlue;
+  @media (max-width: 620px) {
+    font-size: 14px;
+  }
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-
   font-size: 12px;
   font-weight: $fw-bold;
   text-decoration: none;
+
+  @media (max-width: 620px) {
+    font-size: 15px;
+  }
 }

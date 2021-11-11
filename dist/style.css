@@ -49,6 +49,13 @@ body {
   left: 48%;
 }
 
+@media (max-width: 620px) {
+  .body-bg .bg__img--bottom {
+    top: 45%;
+    left: 35%;
+  }
+}
+
 .attribution {
   z-index: 1;
   font-size: 11px;
@@ -57,11 +64,23 @@ body {
   color: #2d3248;
 }
 
+@media (max-width: 620px) {
+  .attribution {
+    font-size: 14px;
+  }
+}
+
 .attribution a {
   color: #3e52a3;
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+}
+
+@media (max-width: 620px) {
+  .attribution a {
+    font-size: 15px;
+  }
 }
 
 .card {
@@ -73,6 +92,13 @@ body {
   margin-bottom: 10px;
 }
 
+@media (max-width: 620px) {
+  .card {
+    width: 450px;
+    margin-bottom: 14px;
+  }
+}
+
 .card__header {
   height: 140px;
   background-image: url("../../images/bg-pattern-card.svg");
@@ -81,10 +107,22 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 620px) {
+  .card__header {
+    height: 190px;
+  }
+}
+
 .card__main {
   background-color: white;
   padding: 85px 45px 23px;
   border-bottom: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+@media (max-width: 620px) {
+  .card__main {
+    padding: 95px 45px 30px;
+  }
 }
 
 .card__img-container {
@@ -102,23 +140,52 @@ body {
           transform: translateY(70%);
 }
 
+@media (max-width: 620px) {
+  .card__img-container {
+    width: 135px;
+    height: 135px;
+    -webkit-transform: translateY(90%);
+            transform: translateY(90%);
+  }
+}
+
 .card__name-age {
-  font-size: 20px;
+  font-size: 18px;
   color: #2d3248;
 }
 
+@media (max-width: 620px) {
+  .card__name-age {
+    font-size: 24px;
+  }
+}
+
 .card__age {
-  font-size: 20px;
+  font-size: 18px;
   color: #969696;
   margin-left: 5px;
 }
 
+@media (max-width: 620px) {
+  .card__age {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
 .card__location {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   color: #969696;
   margin-top: 10px;
+}
+
+@media (max-width: 620px) {
+  .card__location {
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
 
 .card__footer {
@@ -135,15 +202,36 @@ body {
   padding: 25px 45px;
 }
 
+@media (max-width: 620px) {
+  .card__footer {
+    padding: 35px 45px;
+  }
+}
+
 .card__count {
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 0.8;
   color: #2d3248;
 }
 
+@media (max-width: 620px) {
+  .card__count {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+}
+
 .card__label {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   color: #969696;
   letter-spacing: 1.3px;
+}
+
+@media (max-width: 620px) {
+  .card__label {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 /*# sourceMappingURL=style.css.map */
